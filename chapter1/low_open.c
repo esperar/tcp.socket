@@ -6,6 +6,10 @@ void error_handling(char *message);
 
 int main(void) 
 {
+    // fd : 데이터 수신대상을 나타내는 파일 디스크립터
+    // buf : 수신한 데이터를 저장할 버퍼의 주소 값
+    // nbytes : 수신할 최대 바이트 수
+    
     int fd;
     char buf[] = "Let's go!\n";
 
